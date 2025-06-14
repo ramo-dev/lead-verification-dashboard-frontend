@@ -60,19 +60,13 @@ The `.env` file contains the base URL for the backend API. The default values sh
 
 ### Running the Development Server
 
-1.  Make sure the backend API is running and accessible at `http://localhost:8080`.
-2.  Run the development server:
+Make sure the backend API is running and accessible at `http://localhost:8080`.
+
+Run the development server:
     ```bash
     pnpm dev
     ```
-3.  Open your browser and navigate to `http://localhost:5173` to see the application.
 
-Install dependencies
-```bash
-pnpm install
-```
+Open your browser and navigate to `http://localhost:5173` to see the application.
 
-Start the development server
-```bash
-pnpm dev
-```
+
