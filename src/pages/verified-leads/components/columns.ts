@@ -18,7 +18,7 @@ export const columns: ColumnDef<Inquiry>[] = [
       const amount = parseFloat(row.getValue('estimatedValue'));
       const formatted = new Intl.NumberFormat('en-US', {
         style: 'currency',
-        currency: 'USD',
+        currency: 'KES',
       }).format(amount);
       return h('div', { class: 'text-right font-medium' }, formatted);
     },
