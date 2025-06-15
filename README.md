@@ -64,7 +64,7 @@ Make sure the backend API is running and accessible at `http://localhost:8080`.
 
 Run the development server:
 ```bash
-    pnpm dev
+pnpm dev
 ```
 
 Open your browser and navigate to `http://localhost:5173` to see the application.
